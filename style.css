@@ -104,8 +104,8 @@ nav.navbar .container-fluid {
   border-radius: 20px;
 }
 
-.pk{
-  display:none;
+.pk {
+  display: none;
 }
 
 /* akhir jumboton */
@@ -448,11 +448,9 @@ section#gallery {
     height: 240px;
     width: 150px;
     border-radius: 10px;
-    margin-left: -20px;
-    position: relative;
+    grid-area: ig;
     background: rgba(136, 135, 135, 0.646);
   }
-
 
   .ig h1 {
     color: white;
@@ -468,10 +466,9 @@ section#gallery {
     text-decoration: none;
   }
 
-  .link-jadwal{
-    text-decoration:none;
+  .link-jadwal {
+    text-decoration: none;
   }
-
 
   .ig p {
     font-size: 14px;
@@ -490,42 +487,70 @@ section#gallery {
     height: 110px;
     border-radius: 10px;
     background: rgba(136, 135, 135, 0.646);
-    position: relative;
-    margin-right:-20px;
   }
 
-  .jadwal-tkj h2{
+  .link-jadwal {
+    grid-area: jadwal;
+  }
+
+  .jadwal-tkj h2 {
     position: absolute;
-    margin-left:8px;
-    margin-top:70px;
-    color:white;
+    margin-left: 8px;
+    margin-top: 70px;
+    color: white;
   }
 
-  .lj{
-    position:absolute;
-    margin-top:13px;
-    margin-left:10px;
+  .lj {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 10px;
   }
 
-  .ljadwal{
-    margin-right:50px;
+  .ljadwal {
+    margin-right: 50px;
   }
 
+  .come {
+    width: 130px;
+    height: 110px;
+    border-radius: 10px;
+    background: rgba(136, 135, 135, 0.646);
+  }
+
+  .come p{
+    position:relative ;
+    top:83px;
+    left:10px;
+    font-size:14px;
+    color: rgb(176, 176, 176);
+  }
+
+  .link-come {
+    text-decoration:none;
+    grid-area: come;
+  }
 
   .pk {
     display: flex;
-    width: 300px;
+    width: 320px;
   }
 
   .pembungkus-profile {
     width: 200px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 110px;
+    grid-gap:20px;
+    grid-template-areas:
+      "ig jadwal"
+      "ig come";
   }
 
   /* akhir jombotron */
 
   /* galerry */
   section#gallery {
-    margin-top:20px;
+    margin-top: 100px;
   }
   /* akhir galerry */
 }
