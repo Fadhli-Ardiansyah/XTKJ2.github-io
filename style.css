@@ -104,9 +104,8 @@ nav.navbar .container-fluid {
   border-radius: 20px;
 }
 
-.ig {
-  position: relative;
-  left: -999px;
+.pk{
+  display:none;
 }
 
 /* akhir jumboton */
@@ -358,7 +357,7 @@ section#gallery {
 
 /* mobile */
 
-@media (max-width: 400px) {
+@media (max-width: 570px) {
   span {
     display: none;
   }
@@ -404,7 +403,7 @@ section#gallery {
   }
 
   .angkatan {
-    background: rgba(136, 135, 135, 0.646);
+    background: rgba(198, 198, 198, 0.646);
     justify-content: center;
     align-items: center;
     left: 0;
@@ -434,6 +433,11 @@ section#gallery {
     text-shadow: #d41a77 2px 0 20px;
   }
 
+  .pk {
+    z-index: 55;
+    margin-top: -300px;
+  }
+
   .igig {
     margin-left: 10px;
     margin-right: 50px;
@@ -441,13 +445,14 @@ section#gallery {
   }
 
   .ig {
-    top: -320px;
-    left: 48px;
     height: 240px;
     width: 150px;
     border-radius: 10px;
+    margin-left: -20px;
+    position: relative;
     background: rgba(136, 135, 135, 0.646);
   }
+
 
   .ig h1 {
     color: white;
@@ -459,13 +464,17 @@ section#gallery {
     width: 30px;
   }
 
-  .link-ig{
-    text-decoration:none;
-
+  .link-ig {
+    text-decoration: none;
   }
 
+  .link-jadwal{
+    text-decoration:none;
+  }
+
+
   .ig p {
-    font-size:14px;
+    font-size: 14px;
     color: rgb(176, 176, 176);
     position: relative;
     top: 155px;
@@ -473,13 +482,50 @@ section#gallery {
   }
 
   .to-ig {
-    position:absolute;
+    position: absolute;
   }
+
+  .jadwal-tkj {
+    width: 130px;
+    height: 110px;
+    border-radius: 10px;
+    background: rgba(136, 135, 135, 0.646);
+    position: relative;
+    margin-right:-20px;
+  }
+
+  .jadwal-tkj h2{
+    position: absolute;
+    margin-left:8px;
+    margin-top:70px;
+    color:white;
+  }
+
+  .lj{
+    position:absolute;
+    margin-top:13px;
+    margin-left:10px;
+  }
+
+  .ljadwal{
+    margin-right:50px;
+  }
+
+
+  .pk {
+    display: flex;
+    width: 300px;
+  }
+
+  .pembungkus-profile {
+    width: 200px;
+  }
+
   /* akhir jombotron */
 
   /* galerry */
-  section#gallery{
-    margin-top:-300px;
+  section#gallery {
+    margin-top: 300px;
   }
   /* akhir galerry */
 }
