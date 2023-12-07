@@ -11,6 +11,8 @@
       crossorigin="anonymous"
     />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
@@ -91,7 +93,7 @@
             <h1>welcome</h1>
             <h5 class="h5"><span>To</span> X TKJ 2</h5>
           </div>
-          <div class="angkatan d-flex">
+          <div class="angkatan d-flex" data-aos="fade-down"  data-aos-duration="1500">
             <h1 class="angka1">2023</h1>
             <h1 class="text-white">-</h1>
             <h1 class="angka2">2026</h1>
@@ -103,7 +105,7 @@
     <div class="container pk">
       <div class="col pembungkus-profile">
         <a
-          class="link-ig"
+          class="link-ig" data-aos="fade-right"  data-aos-duration="1500"
           href="https://www.instagram.com/x.tkj_2.pride/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
           target="_blank"
         >
@@ -139,7 +141,7 @@
           </div>
         </a>
 
-        <a class="link-jadwal" href="jadwal-jadwal kelas.html">
+        <a class="link-jadwal" href="jadwal-jadwal kelas.html" data-aos="fade-left"  data-aos-duration="1000"> 
           <div class="jadwal-tkj">
             <div class="lj d-flex">
               <svg
@@ -172,7 +174,7 @@
           </div>
         </a>
 
-        <a class="link-come" href="">
+        <a class="link-come" href="" data-aos="fade-left"  data-aos-duration="2000">
           <div class="come">
             <h2>Coming Soon</h2>
           </div>
@@ -260,7 +262,11 @@
       <div class="container justify-content-center text-center d-flex">
         <div class="row psc justify-content-center">
           <h5 class="wali text-center text-white">Wali Kelas</h5>
-          <div class="wk text-center">
+          <div
+            class="wk text-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <h3>Angga Lasanovana</h3>
           </div>
           <div class="kerangka row justify-content-center">
@@ -272,8 +278,9 @@
             <h5 class="hs2">Wakil Ketua</h5>
           </div>
 
-          <div class="suku-k justify-content-between">
-            <div class="skk1">
+          <div class="suku-k justify-content-between"             data-aos="fade-up"
+            data-aos-duration="2000">
+            <div class="skk1" >
               <h3>Hendy</h3>
             </div>
             <div class="skk2">
@@ -288,7 +295,8 @@
               <h5>Bendahara</h5>
             </div>
           </div>
-          <div class="suku-1k justify-content-between">
+          <div class="suku-1k justify-content-between"             data-aos="fade-up"
+            data-aos-duration="2000">
             <div class="skkb1">
               <h3>Hendy</h3>
             </div>
@@ -296,7 +304,8 @@
               <h3>m.bintang</h3>
             </div>
           </div>
-          <div class="suku-2k justify-content-between">
+          <div class="suku-2k justify-content-between"             data-aos="fade-up"
+            data-aos-duration="2000">
             <div class="skkb1">
               <h3>Hendy</h3>
             </div>
@@ -306,10 +315,10 @@
           </div>
           <div class="k text-white">
             <h5>keamanan</h5>
-            <div class="k-f text-black justify-content-center d-flex">
-              <div class="k-last ">
+            <div class="k-f text-black justify-content-center d-flex"             data-aos="fade-up"
+            data-aos-duration="1000">
+              <div class="k-last">
                 <h3>M.Rafa</h3>
-
               </div>
             </div>
           </div>
@@ -360,5 +369,10 @@
         },
       });
     </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+    AOS.init();
+  </script>
   </body>
 </html>
