@@ -385,6 +385,7 @@ section#gallery {
 }
 
 .kerangka img {
+  margin-top: 80px;
   width: 500px;
 }
 
@@ -393,74 +394,88 @@ section#gallery {
 }
 
 .suku {
-  top: 194px;
+  top: 220px;
   position: absolute;
 }
 
 .suku .hs1 {
-  margin-left: 60px;
+  margin-left: 27px;
 }
 
 .suku .hs2 {
-  margin-right: 59px;
+  margin-right: 30px;
 }
 
 .suku-k {
   position: absolute;
   display: flex;
-  top: 217px;
+  top: 250px;
   z-index: 99;
 }
 
 .skk1,
 .skk2,
 .skkb1,
-.skkb2 {
+.skkb2,
+.k-last {
   width: 100px;
   border-radius: 20px;
   background-color: white;
 }
 
 .skk1 {
-  margin-left: 43px;
+  margin-left: 11px;
 }
 
 .skk2 {
-  margin-right: 40px;
+  margin-right: 14px;
 }
 
 .suku-1 {
   position: absolute;
   display: flex;
-  top: 310px;
+  top: 370px;
 }
 
 .skbh1 {
-  margin-left: 68px;
+  margin-left: 35px;
 }
 
 .skbh2 {
-  margin-right: 63px;
+  margin-right: 37px;
 }
 
 .suku-1k {
   display: flex;
   position: absolute;
-  top: 335px;
+  top: 400px;
 }
 
 .suku-2k {
   display: flex;
   position: absolute;
-  top: 365px;
+  top: 450px;
 }
 
 .skkb1 {
-  margin-left: 43px;
+  margin-left: 11px;
 }
 
 .skkb2 {
-  margin-right: 40px;
+  margin-right: 16px;
+}
+
+.k {
+  position: absolute;
+  top: 500px;
+}
+
+.k h5{
+  margin-right:5px;
+}
+
+.k-last{
+  margin-left:140px;
 }
 
 /* akhir struktur */
