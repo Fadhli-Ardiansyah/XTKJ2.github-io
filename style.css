@@ -355,6 +355,116 @@ section#gallery {
 
 /* akhir galery */
 
+/* struktur */
+
+#struktur {
+  margin-top: 150px;
+}
+
+.judul-tc {
+  font-size: 30px;
+  text-shadow: 2px 2px 25px white;
+  color: rgb(176, 176, 176);
+}
+
+.wali {
+  z-index: 99;
+  margin-top: 100px;
+}
+
+.wk {
+  background-color: white;
+  border-radius: 20px;
+  width: 180px;
+}
+
+.psc {
+  margin-top: -60px;
+  width: 400px;
+  position: relative;
+}
+
+.kerangka img {
+  width: 500px;
+}
+
+.kerangka {
+  margin-top: -100px;
+}
+
+.suku {
+  top: 194px;
+  position: absolute;
+}
+
+.suku .hs1 {
+  margin-left: 60px;
+}
+
+.suku .hs2 {
+  margin-right: 59px;
+}
+
+.suku-k {
+  position: absolute;
+  display: flex;
+  top: 217px;
+  z-index: 99;
+}
+
+.skk1,
+.skk2,
+.skkb1,
+.skkb2 {
+  width: 100px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.skk1 {
+  margin-left: 43px;
+}
+
+.skk2 {
+  margin-right: 40px;
+}
+
+.suku-1 {
+  position: absolute;
+  display: flex;
+  top: 310px;
+}
+
+.skbh1 {
+  margin-left: 68px;
+}
+
+.skbh2 {
+  margin-right: 63px;
+}
+
+.suku-1k {
+  display: flex;
+  position: absolute;
+  top: 335px;
+}
+
+.suku-2k {
+  display: flex;
+  position: absolute;
+  top: 365px;
+}
+
+.skkb1 {
+  margin-left: 43px;
+}
+
+.skkb2 {
+  margin-right: 40px;
+}
+
+/* akhir struktur */
+
 /* mobile */
 
 @media (max-width: 570px) {
@@ -517,16 +627,15 @@ section#gallery {
     background: rgba(136, 135, 135, 0.646);
   }
 
-  .come p{
-    position:relative ;
-    top:83px;
-    left:10px;
-    font-size:14px;
-    color: rgb(176, 176, 176);
+  .come h2 {
+    position: relative;
+    top: 60px;
+    left: 10px;
+    color: white;
   }
 
   .link-come {
-    text-decoration:none;
+    text-decoration: none;
     grid-area: come;
   }
 
@@ -540,7 +649,7 @@ section#gallery {
     position: relative;
     display: grid;
     grid-template-rows: 110px;
-    grid-gap:20px;
+    grid-gap: 20px;
     grid-template-areas:
       "ig jadwal"
       "ig come";
