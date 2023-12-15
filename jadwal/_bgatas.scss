@@ -1,0 +1,36 @@
+.bgatas {
+  width: 100%;
+  margin-top:40px;
+  img {
+    width: 100%;
+  }
+  h1{
+    color:black;
+    z-index:1;
+    position: relative;
+    font-family:teko;
+    font-size:50px;
+    top:-50px;
+  }
+
+  button{
+    position: relative;
+    z-index:1;
+  }
+}
+
+.bgatas::after {
+  content: "";
+  display: block;
+  bottom: 0;
+  position: absolute;
+  left: -0.1px;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgb(210, 210, 210),
+    rgba(0, 0, 0, 0.512),
+    rgb(0, 0, 0)
+  );
+}
