@@ -11,13 +11,22 @@
   position: relative;
   font-family: teko;
   font-size: 50px;
-  top: -50px;
+  top: -300px;
 }
 .bgatas button {
   position: relative;
   z-index: 1;
+  top: -200px;
 }
 
+@media (max-width: 570px) {
+  .bgatas h1 {
+    top: 20px;
+  }
+  .bgatas button {
+    top: 50px;
+  }
+}
 .bgatas::after {
   content: "";
   display: block;
